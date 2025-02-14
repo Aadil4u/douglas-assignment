@@ -21,7 +21,7 @@ This project is a Selenium-based test automation framework using TestNG and Java
 2. **Clone the repository:**
 
    ```bash
-   git clone [https://your-repository-url.git](https://your-repository-url.git)  # Replace with your repository URL
+   git clone git@github.com:Aadil4u/douglas-assignment.git
 
 3. **Navigate to the project directory:**
 
