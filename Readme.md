@@ -26,7 +26,7 @@ This project is a Selenium-based test automation framework using TestNG and Java
 3. **Navigate to the project directory:**
 
     ```bash
-   cd Selenium_TestNG_Framework
+   cd douglas-assignment
    
 4. **Run the tests:**
    * To run the tests defined in Filters.xml, use the following Maven command:
