@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       browser:
-        description: 'Browser (Chrome, Firefox, Edge)'
+        description: 'Browser (chrome, firefox, edge)'
         required: true
         default: 'Chrome'
       browser_version:
@@ -41,9 +41,9 @@ jobs:
           java-version: '11'
 
       - name: Set up Maven
-        uses: s4u/setup-maven-action@v1
+        uses: stCarolas/setup-maven@v5
         with:
-          maven-version: '3.8.6'
+          maven-version: 3.8.2
 
       - name: Run Tests
         run: |
